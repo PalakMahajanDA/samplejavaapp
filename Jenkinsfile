@@ -1,5 +1,13 @@
+def workspace = "home\\jagenthome"
+def server = "18.207.100.117"
+
 pipeline {
-    agent TProject2
+   agent {
+    node {
+      label server
+	  customWorkspace workspace
+    }
+  }
     stages {
         stage('compile') {
 	   steps {
