@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent TProject2
     stages {
         stage('compile') {
 	   steps {
