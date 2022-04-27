@@ -1,5 +1,5 @@
 def workspace = "home\\jagenthome"
-def server = "18.207.100.117"
+def server = "TProject2"
 
 pipeline {
    agent {
